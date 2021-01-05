@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1-A home-search</title>
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="header__main ">
+        <!-- First Nav container -->
+        <div class="theme__size_container center__div">
+            <!-- Left Floating widgets -->
+            <div class="header__left_container">
+                <div class="header__logo">
+                    <img src="./images/header/main/Logo.png" alt="Website Logo">
+                </div>
+
+                <div class="header__search_box__container">
+                    <div class="header__search_box">
+
+                    </div>
+
+                    <div class="header__search_button">
+
+                    </div>
+                </div>
+            </div>
+            <!-- END Left Floating widgets -->
+
+            <!-- Right Floating widgets -->
+            <div class="header__right_container">
+                <div class="header__user_full_name make_dark">
+                    Joe Burros
+                </div>
+
+                <div class="header__user_account_options">
+                    <span><a href="#">Home</a></span> | <span><a href="#">Settings</a></span> | <span><a href="#">Log Out</a></span>
+                </div>
+            </div>
+            <!-- END Right Floating widgets -->
+        </div>
+        <!-- END First Nav container -->
+    </div>
+
+    <div class="header__secondary">
+        <!-- Second Nav container -->
+        <div class="theme__size_container center__div">
+            <div class="header__secondary__left_container">
+                <a href="#">Create New Entry</a>
+                <a href="#">My Topic Boxes</a>
+                <a href="#">Friends</a>
+                <a href="#">Invite New Member</a>
+            </div>
+
+            <div class="header__secondary__right_container">
+                <!-- SECOND ICON !! -->
+                <div class="header__secondary__widget">
+                    <span class="header__secondary_widget__icon">IC</span> &nbsp
+                    <span class="friend_requests_container">
+                        Friend Requests - <span id="friend_requests" class="friend_requests">0</span>
+                    </span>
+                </div>
+
+                <!-- FIRST ICON !! -->
+                <div class="header__secondary__widget">
+                    <span class="header__secondary_widget__icon">IC</span> &nbsp
+                    <span class="topic_boxes_invite_container">
+                        Topic Boxes Invites - <span id="topic_boxes_invite" class="topic_boxes_invite">2</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <!-- END Second Nav container -->
+    </div>
+</header>
+
+<div class="body">
+    <div class="body__container theme__size_container center__div">
+        <div class="body__left_container">
+            <div class="body__column_top_search_container">
+                <div class="body__column_title">
+                    Recent Searches
+                </div>
+
+                <div>
+                    <div class="body__column__recent_search_value_container">
+                        <span>Lorem ipsum</span>
+                        <span class="header__secondary_widget__icon" style="float: right">
+                            LI
+                        </span>
+                    </div>
+                    <div class="body__column__recent_search_value_container">
+                        <span>Lorem ipsum</span>
+                        <span class="header__secondary_widget__icon" style="float: right">
+                            LI
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="body__column_bottom_search_container">
+                <div class="body__column_title">
+                    Recent Searches
+                </div>
+                <div>
+                    <div class="body__column__recent_search_value_container">
+                        <span style="width: 7px">Lorem ips asd asdasd asdasddsum</span>
+                        <span class="header__secondary_widget__icon" style="float: right">
+                            LI
+                        </span>
+                    </div>
+                    <div class="body__column__recent_search_value_container body__column__recent_search__active">
+                        <span style="width: 7px">Lore asd asdasd m ipsum</span>
+                        <span class="header__secondary_widget__icon" style="float: right">
+                            LI
+                        </span>
+                    </div>
+                    <div class="body__column__recent_search_value_container">
+                        <span style="width: 7px">Lo ASD Asdrem ipsum</span>
+                        <span class="header__secondary_widget__icon" style="float: right">
+                            LI
+                        </span>
+                    </div>
+                    <div class="body__column__recent_search_value_container">
+                        <span style="width: 7px">Loreasd m ipsum</span>
+                        <span class="header__secondary_widget__icon" style="float: right">
+                            LI
+                        </span>
+                    </div>
+                    <div class="body__column__recent_search_value_container">
+                        <span style="width: 7px">Lorsa dasd em ipsum</span>
+                        <span class="header__secondary_widget__icon" style="float: right">
+                            LI
+                        </span>
+                    </div>
+                    <div class="body__column__recent_search_value_container">
+                        <span style="width: 7px">Lorem i asd psum</span>
+                        <span class="header__secondary_widget__icon" style="float: right">
+                            LI
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="body__right_right__container">
+            <div class="body__middle_container">
+                <h1>Entries</h1>
+
+                <div class="body__middle_column__header_container">
+                    <div class="body__middle_container__header_container__left body__middle_container__header_container__common">
+                        <span>All Entries</span>
+
+                        <div class="body__middle_container__header_container__left_button_container">
+                            <div class="body__middle_container__header_container__left_button body__middle_container__header_container__left_button__active body__middle_container__header_container__button__common">
+                                <span>All Members</span>
+                            </div>
+                            <div class="body__middle_container__header_container__right_button body__middle_container__header_container__button__common">
+                                <span>Friends</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="body__middle_container__header_container__right body__middle_container__header_container__common">
+                        <span>Subscribed</span>
+
+                        <div class="body__middle_container__header_container__right_button_container">
+                            <div class="body__middle_container__header_container__left_button body__middle_container__header_container__button__common">
+                                <span>All Members</span>
+                            </div>
+                            <div class="body__middle_container__header_container__right_button body__middle_container__header_container__button__common">
+                                <span>Friends</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="body__middle_column__body_container">
+                    <div class="body__post_container">
+                        <div class="body__post_image">
+
+                        </div>
+
+                        <div class="body__post_content">
+                            <div class="post__announcement">
+
+                            </div>
+                            <div class="post__title">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            </div>
+                            <div class="post__by">
+                                by
+                                <span class="post__author_name">Lorem ipsum</span> |
+                                <span class="post__publish_date">
+                                    February 10, 2012
+                                </span> |
+                                <span class="post__subscribed_tag">
+                                    Subscribed
+                                </span>
+                            </div>
+                            <div class="post__from_container">
+                                From Topic Box: <span class="post__from">My Favourite Movies</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="body__post_container">
+                        <div class="body__post_image">
+
+                        </div>
+
+                        <div class="body__post_content">
+                            <div class="post__announcement">
+                                NEW ENTRY !!
+                            </div>
+                            <div class="post__title">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            </div>
+                            <div class="post__by">
+                                by
+                                <span class="post__author_name">Lorem ipsum</span> |
+                                <span class="post__publish_date">
+                                    February 10, 2012
+                                </span> |
+                                <span class="post__subscribed_tag">
+                                    Subscribed
+                                </span>
+                            </div>
+                            <div class="post__from_container">
+                                From Topic Box: <span class="post__from">My Favourite Movies</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="body__post_container">
+                        <div class="body__post_image">
+
+                        </div>
+
+                        <div class="body__post_content">
+                            <div class="post__announcement">
+                                NEW COMMENT !!
+                            </div>
+                            <div class="post__title">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            </div>
+                            <div class="post__by">
+                                by
+                                <span class="post__author_name">Lorem ipsum</span> |
+                                <span class="post__publish_date">
+                                    February 10, 2012
+                                </span> |
+                                <span class="post__subscribed_tag">
+                                    Subscribed
+                                </span>
+                            </div>
+                            <div class="post__from_container">
+                                From Topic Box: <span class="post__from">My Favourite Movies</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="body__post_container">
+                        <div class="body__post_image">
+
+                        </div>
+
+                        <div class="body__post_content">
+                            <div class="post__announcement">
+
+                            </div>
+                            <div class="post__title">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            </div>
+                            <div class="post__by">
+                                by
+                                <span class="post__author_name">Lorem ipsum</span> |
+                                <span class="post__publish_date">
+                                    February 10, 2012
+                                </span> |
+                                <span class="post__subscribed_tag">
+                                    Subscribed
+                                </span>
+                            </div>
+                            <div class="post__from_container">
+                                From Topic Box: <span class="post__from">My Favourite Movies</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="body__post_container">
+                        <div class="body__post_image">
+
+                        </div>
+
+                        <div class="body__post_content">
+                            <div class="post__announcement post__announcement__danger">
+                                TOPIC BOX INVITE !!
+                            </div>
+                            <div class="post__title">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            </div>
+                            <div class="post__by">
+                                by
+                                <span class="post__author_name">Lorem ipsum</span> |
+                                <span class="post__publish_date">
+                                    February 10, 2012
+                                </span> |
+                                <span class="post__subscribed_tag">
+                                    Subscribed
+                                </span>
+                            </div>
+                            <div class="post__from_container">
+                                From Topic Box: <span class="post__from">My Favourite Movies</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="body__right_container">
+                <div class="body__column_title">
+                    Video Tutorials
+                </div>
+
+                <div>
+                    <div class="body__column__recent_search_value_container">
+                        <span>Loreasd m ipsum</span>
+                    </div>
+                    <div class="body__column__recent_search_value_container">
+                        <span>Lorem ipsuas dasdasdm</span>
+                    </div>
+                    <div class="body__column__recent_search_value_container">
+                        <span>Lorem asdipsum</span>
+                    </div>
+                    <div class="body__column__recent_search_value_container">
+                        <span>Lorem ipsum</span>
+                    </div>
+                    <div class="body__column__recent_search_value_container">
+                        <span>Lorem as dasd asdipsum</span>
+                    </div>
+                    <div class="body__column__recent_search_value_container">
+                        <span>Lorem ips asd asd asum</span>
+                    </div>
+                    <div class="body__column__recent_search_value_container">
+                        <span>Lorem asd asdasd ipsum</span>
+                    </div>
+                    <div class="body__column__recent_search_value_container">
+                        <span>Lorem ipsuas dasd asdm</span>
+                    </div>
+                    <div class="body__column__recent_search_value_container">
+                        <span>Lorem ipsum asdasd</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="footer__container theme__size_container center__div">
+        <div class="footer__links">
+            <a href="#">About Us</a>•
+            <a href="#">Contact Us</a>•
+            <a href="#">Terms of Use</a>•
+            <a href="#">Privacy Policy</a>•
+            <a href="#">Feedback</a>
+        </div>
+        <div class="footer__copyright">
+            © TuTangle 2013
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
