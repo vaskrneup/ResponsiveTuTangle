@@ -1,3 +1,22 @@
+.main_container {
+    width: 62.625rem;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
+
 /* COMMON LAYOUT STYLES !! */
 .body {
     font-size: 10px;
@@ -41,10 +60,6 @@ h1 {
 /* END COMMON LAYOUT STYLES !! */
 
 /* HEADER LAYOUT STYLES */
-
-.content_wrapper {
-    min-width: 1002px;
-}
 
 .header__main {
     background-color: #7dd9e8;
