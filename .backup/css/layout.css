@@ -85,7 +85,7 @@ h1 {
     margin-left: 12px;
     margin-right: 3px;
 
-    width: 275px;
+    width: 275px; /**/
     height: 21px;
 }
 
@@ -93,7 +93,7 @@ h1 {
 .search_box__left {
     /*background-color: black;*/
     background-image: url("../images/header/main/SearchBxLeftCircular.png");
-    width: 7px;
+    width: 7px; /**/
     height: 20px;
     background-repeat: no-repeat;
     float: left;
@@ -101,17 +101,17 @@ h1 {
 
 .search_box__right_container {
     float: left;
-    width: 268px;
+    width: 268px; /**/
 }
 
 .search_box {
     float: left;
-    width: 231px;
+    width: 231px; /**/
 }
 
 .search_box__right {
     background-image: url("../images/header/main/SearchBoxRightCircular.png");
-    width: 7px;
+    width: 7px; /**/
     height: 20px;
     float: left;
 }
@@ -122,7 +122,7 @@ h1 {
     outline: none;
     border: none;
     height: 20px;
-    width: 231px;
+    width: 231px; /**/
 
     font-size: 11px;
 }
@@ -133,19 +133,19 @@ h1 {
 
 .search_box__btn_right__wrapper {
     float: left;
-    width: 37px;
+    width: 37px; /**/
 }
 
 .search_box__btn_group {
     float: left;
-    width: 30px;
+    width: 30px; /**/
 }
 
 
 .search_box__X_btn {
     background-image: url("../images/header/main/XIcon.png");
     float: left;
-    width: 15px;
+    width: 15px; /**/
     height: 20px;
 }
 
@@ -153,7 +153,7 @@ h1 {
     background-image: url("../images/header/main/SearchIcon.png");
     margin-left: 1px;
     float: left;
-    width: 14px;
+    width: 14px; /**/
     height: 20px;
 }
 
@@ -164,31 +164,31 @@ h1 {
     margin-top: 18px;
     margin-left: 4px;
 
-    width: 53px;
+    width: 53px; /**/
     height: 20px;
 }
 
 .search_button__left {
     background-image: url("../images/header/main/SearchBtnLeft.png");
     float: left;
-    width: 8px;
+    width: 8px; /**/
     height: 20px;
 }
 
 .search_button__right_container {
     float: left;
-    width: 45px;
+    width: 45px; /**/
 }
 
 .search_button__container {
     float: left;
-    width: 38px;
+    width: 38px; /**/
     height: 20px;
 }
 
 
 .search_button {
-    width: 38px;
+    width: 38px; /**/
     height: 20px;
     outline: none;
     border: none;
@@ -206,7 +206,7 @@ h1 {
     background-image: url("../images/header/main/SearchBtnRight.png");
 
     float: left;
-    width: 7px;
+    width: 7px; /**/
     height: 20px;
 }
 
@@ -323,11 +323,11 @@ h1 {
 .body__left_container {
     background-color: #F5F5F5;
 
-    margin-right: 26px;
+    margin-right: 2.754237%; /*26*/
 
     float: left;
 
-    width: 196px;
+    width: 20.762711%; /*196*/
     min-height: 607px;
 }
 
@@ -393,7 +393,7 @@ h1 {
     /*background-color: #fce7dc;*/
     float: left;
 
-    width: 518px;
+    width: 71.745152%; /*518*/
     min-height: 607px;
 }
 
@@ -403,7 +403,8 @@ h1 {
     text-align: center;
     font-size: 14px;
 
-    width: 258px;
+    width: 49.806949%; /*258*/
+    /*width: 258px;*/
     height: 53px;
     padding-top: 13px;
 
@@ -432,7 +433,7 @@ h1 {
 .body__middle_container__header_container__button__common {
     /*background-color: #DDDDDD;*/
     height: 27px;
-    width: 114px;
+    width: 55.813953%; /*144*/
 
     font-size: 12px;
 
@@ -460,7 +461,7 @@ h1 {
 .category {
     background-color: #dddddd;
     text-align: center;
-    width: 86px;
+    width: 59.722222%; /*86*/
     height: 7px;
     padding: 10px 0;
     float: left;
@@ -471,7 +472,7 @@ h1 {
 
     background-repeat: no-repeat;
     height: 27px;
-    width: 13px;
+    width: 18.75%; /*13*/
     /*overflow: hidden;*/
     float: left;
 }
@@ -481,12 +482,12 @@ h1 {
     background-image: url("../images/btns/BtnInActiveRight.png");
     background-repeat: no-repeat;
     height: 27px;
-    width: 13px;
+    width: 9.027777%; /*13*/
     float: left;
 }
 
 .category_right__container {
-    width: 101px;
+    width: 70.138888%; /*101*/
     height: 27px;
     float: left;
 }
@@ -510,15 +511,15 @@ h1 {
 .body__middle_container__header_container__left_button {
     float: left;
 
-    margin-right: 5px;
-    margin-left: 10px;
+    margin-right: 1.937984%; /*5*/
+    margin-left: 3.875968%; /*10*/
 }
 
 .body__middle_container__header_container__right_button {
     float: right;
 
-    margin-left: 5px;
-    margin-right: 10px;
+    margin-left: 1.937984%;
+    margin-right: 3.875968%;
 }
 
 .body__middle_container__header_container__left_button__active {
@@ -531,12 +532,13 @@ h1 {
 
     float: right;
 
-    width: 178px;
+    width: 24.653739%; /*178*/
     min-height: 607px;
 }
 
 .body__right_right__container {
     float: left;
+    width: 76.483050%; /*722*/
 }
 
 
@@ -549,16 +551,17 @@ h1 {
 .body__post_image {
     float: left;
 
-    width: 70px;
-    height: 70px;
-    background-color: #727272;
+    /*width: 70px; !*70*!*/
+    /*height: 70px;*/
+    /*background-color: #727272;*/
 
     margin-top: 15px;
     border-radius: 10px;
 }
 
 .body__post_container {
-    height: 85px;
+    /*height: 85px;*/
+    display: flex;
     padding-bottom: 15px;
     border-bottom: 1px solid #D8D8D8;
 }
@@ -569,7 +572,7 @@ h1 {
     float: left;
     font-size: 12px;
     margin-top: 17px;
-    margin-left: 9px;
+    margin-left: 1.737451%; /*9*/
 }
 
 .post__announcement {
@@ -631,9 +634,10 @@ h1 {
 .footer {
     background-color: #727272;
     /*height: 45px;*/
-    display: flex;
-    padding-bottom: 20px;
     font-size: 10px;
+
+    display: flex;
+    padding-bottom: 10px;
 }
 
 .footer__container {
@@ -646,11 +650,6 @@ h1 {
     margin-left: 7px;
     margin-right: 7px;
     text-decoration: none;
-    display: block;
-}
-
-.separator {
-    display: none;
 }
 
 .footer__links a:hover, .footer__copyright a:hover {
@@ -702,20 +701,13 @@ h1 {
     display: block;
 }
 
-.show_btn:hover + .header__secondary__right_container {
-    display: none;
-}
-
-
 .show_btn:hover .show_ham_burger_icon {
     display: none;
 }
 
 
 @media only screen and (min-width: 320px) {
-    .show_btn:hover + .header__logo {
-        display: none;
-    }
+
 }
 
 @media only screen and (min-width: 760px) {
@@ -725,18 +717,6 @@ h1 {
 
     .body__right_container {
         display: block;
-    }
-
-    .footer__links a {
-        color: #C2C2C2;
-        margin-left: 7px;
-        margin-right: 7px;
-        text-decoration: none;
-        display: inline;
-    }
-
-    .separator {
-        display: inline;
     }
 }
 
