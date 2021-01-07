@@ -69,9 +69,11 @@ h1 {
 .search_hidden_container {
     display: block;
     float: left;
+    margin-top: 17px;
+    margin-left: 12px;
 }
 
-.search_hidden_container:hover + .header__search_box__container {
+.search_hidden_container:hover .header__search_box__container {
     display: block;
 }
 
@@ -662,6 +664,16 @@ h1 {
 /*.block__link:hover {*/
 /*    color: #167183;*/
 /*}*/
+
+.show_search_container:hover .header__search_box__container {
+    display: block;
+}
+
+.show_search_container:hover .show_search_btn {
+    display: none;
+}
+
+
 .body__left_container {
     display: none;
 }
@@ -679,8 +691,12 @@ h1 {
     float: left;
 }
 
-.show_btn:hover + .header__secondary__left_container {
+.show_btn:hover .header__secondary__left_container {
     display: block;
+}
+
+.show_btn:hover .show_ham_burger_icon {
+    display: none;
 }
 
 
@@ -712,6 +728,10 @@ h1 {
     }
 
     .show_btn {
+        display: block;
+    }
+
+    .show_ham_burger_icon {
         display: none;
     }
 
@@ -724,7 +744,7 @@ h1 {
         display: block;
     }
 
-    .search_hidden_container {
+    .show_search_btn {
         display: none;
     }
 }
