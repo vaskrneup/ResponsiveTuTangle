@@ -1,25 +1,6 @@
-.main_container {
-    width: 62.625rem;
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-
-}
-
 /* COMMON LAYOUT STYLES !! */
-.body {
-    font-size: 10px;
+.main_container {
+    width: 30em;
 }
 
 .default_link {
@@ -50,7 +31,7 @@ a {
 }
 
 .theme__size_container {
-    width: 944px;
+    width: 94.211576%; /* 944 */
 }
 
 h1 {
@@ -77,8 +58,21 @@ h1 {
     float: left;
     margin-right: 12px;
 
-    width: 224px;
+    /*width: 224px;*/
     height: 38px;
+}
+
+.header__search_box__container {
+    display: none;
+}
+
+.search_hidden_container {
+    display: block;
+    float: left;
+}
+
+.search_hidden_container:hover + .header__search_box__container {
+    display: block;
 }
 
 .header__search_box {
@@ -249,8 +243,8 @@ h1 {
     color: black;
     text-decoration: none;
 
-    padding-left: 8px;
-    padding-right: 22px;
+    padding-left: 5px;
+    padding-right: 10px;
 
     font-size: 14px;
 }
@@ -668,3 +662,69 @@ h1 {
 /*.block__link:hover {*/
 /*    color: #167183;*/
 /*}*/
+.body__left_container {
+    display: none;
+}
+
+.body__right_container {
+    display: none;
+}
+
+.header__secondary__left_container {
+    display: none;
+}
+
+.show_btn {
+    display: block;
+    float: left;
+}
+
+.show_btn:hover + .header__secondary__left_container {
+    display: block;
+}
+
+
+@media only screen and (min-width: 320px) {
+
+}
+
+@media only screen and (min-width: 760px) {
+    .main_container {
+        width: 48em;
+    }
+
+    .body__right_container {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 1002px) {
+    .main_container {
+        width: 62.625em;
+    }
+
+    .body__left_container {
+        display: block;
+    }
+
+    .header__secondary__left_container {
+        display: block;
+    }
+
+    .show_btn {
+        display: none;
+    }
+
+    .header__secondary a {
+        padding-left: 8px;
+        padding-right: 22px;
+    }
+
+    .header__search_box__container {
+        display: block;
+    }
+
+    .search_hidden_container {
+        display: none;
+    }
+}
