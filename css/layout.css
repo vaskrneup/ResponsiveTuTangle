@@ -721,6 +721,13 @@ h1 {
     display: flex;
 }
 
+.header__main {
+    min-width: 480px;
+}
+
+.footer {
+    min-width: 480px;
+}
 
 @media only screen and (min-width: 480px) {
 
