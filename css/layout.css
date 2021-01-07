@@ -322,13 +322,6 @@ h1 {
 
 .body__left_container {
     background-color: #F5F5F5;
-
-    margin-right: 26px;
-
-    float: left;
-
-    width: 196px;
-    min-height: 607px;
 }
 
 .recent_search_icon__container {
@@ -527,12 +520,6 @@ h1 {
 
 .body__right_container {
     background-color: #F5F5F5;
-    margin-left: 26px;
-
-    float: right;
-
-    width: 178px;
-    min-height: 607px;
 }
 
 .body__right_right__container {
@@ -717,10 +704,26 @@ h1 {
 }
 
 
-@media only screen and (min-width: 320px) {
-    .show_btn:hover + .header__logo {
-        display: none;
-    }
+.body__left_container {
+    display: block;
+    float: none;
+    width: 100%;
+}
+
+.body__right_container {
+    /*margin-left: 26px;*/
+
+    /*float: none;*/
+
+    /*width: 178px;*/
+    width: 100%;
+    /*min-height: 607px;*/
+    display: flex;
+}
+
+
+@media only screen and (min-width: 480px) {
+
 }
 
 @media only screen and (min-width: 760px) {
@@ -729,6 +732,12 @@ h1 {
     }
 
     .body__right_container {
+        margin-left: 26px;
+
+        float: right;
+
+        width: 178px;
+        min-height: 607px;
         display: block;
     }
 
@@ -752,6 +761,13 @@ h1 {
 
     .body__left_container {
         display: block;
+
+        margin-right: 26px;
+
+        float: left;
+
+        width: 196px;
+        min-height: 607px;
     }
 
     .header__secondary__left_container {
