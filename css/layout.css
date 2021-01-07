@@ -676,6 +676,11 @@ h1 {
     display: block;
 }
 
+.show_search_btn {
+    margin-top: 18px;
+    float: left;
+}
+
 .show_search_container:hover .show_search_btn {
     display: none;
 }
