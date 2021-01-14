@@ -434,7 +434,7 @@ h1 {
     /*border-radius: 9px 9px 0 0;*/
 }
 
-.body__middle_container__header_container__button__common:hover .category {
+.body__middle_container__header_container__button__common:hover .category a {
     background-color: #2FC1DA;
 }
 
@@ -455,8 +455,17 @@ h1 {
     text-align: center;
     width: 86px;
     height: 7px;
-    padding: 10px 0;
     float: left;
+}
+
+.category a {
+    background-color: #dddddd;
+    padding: 10px 0;
+}
+
+/* FOR CSS PRECEDENCE */
+#active {
+    background-color: #2FC1DA;
 }
 
 .category_left {
