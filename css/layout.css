@@ -62,8 +62,14 @@ h1 {
     height: 38px;
 }
 
+
+.show_search_container {
+    position: relative;
+}
+
 .header__search_box__container {
     display: none;
+    position: absolute;
 }
 
 .search_hidden_container {
@@ -805,6 +811,7 @@ h1 {
 
     .header__search_box__container {
         display: block;
+        position: static;
     }
 
     .show_search_btn {
